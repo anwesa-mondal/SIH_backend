@@ -1,0 +1,87 @@
+{
+  "now_epoch_s": 1758603705,
+  "horizon_s": 3600,
+  "snapshot_trains_considered": 10,
+  "schedule": {
+    "TR001": {
+      "target_section": "SEC_2",
+      "entry_offset_s": 120,
+      "entry_epoch_s": 1758603825,
+      "action": "proceed",
+      "priority": 5,
+      "status": "On time"
+    },
+    "TR007": {
+      "target_section": "SEC_2",
+      "entry_offset_s": 240,
+      "entry_epoch_s": 1758604045,
+      "action": "proceed",
+      "priority": 5,
+      "status": "On time"
+    },
+    "TR010": {
+      "target_section": "SEC_2",
+      "entry_offset_s": 360,
+      "entry_epoch_s": 1758604265,
+      "action": "hold_until_2025-09-23T10:41:45",
+      "priority": 5,
+      "status": "Waiting"
+    },
+    "TR009": {
+      "target_section": "SEC_2",
+      "entry_offset_s": 480,
+      "entry_epoch_s": 1758604485,
+      "action": "hold_until_2025-09-23T10:51:45",
+      "priority": 2,
+      "status": "Waiting"
+    },
+    "TR002": {
+      "target_section": "SEC_5",
+      "entry_offset_s": 0,
+      "entry_epoch_s": 1758603705,
+      "action": "proceed",
+      "priority": 5,
+      "status": "On time"
+    },
+    "TR003": {
+      "target_section": "SEC_6",
+      "entry_offset_s": 300,
+      "entry_epoch_s": 1758604005,
+      "action": "reroute",
+      "priority": 5,
+      "status": "On time"
+    },
+    "TR005": {
+      "target_section": "SEC_6",
+      "entry_offset_s": 420,
+      "entry_epoch_s": 1758604125,
+      "action": "reroute",
+      "priority": 5,
+      "status": "On time"
+    },
+    "TR006": {
+      "target_section": "SEC_5",
+      "entry_offset_s": 540,
+      "entry_epoch_s": 1758604245,
+      "action": "hold_until_2025-09-23T11:01:45",
+      "priority": 2,
+      "status": "Waiting"
+    },
+    "TR008": {
+      "target_section": "SEC_5",
+      "entry_offset_s": 660,
+      "entry_epoch_s": 1758604365,
+      "action": "hold_until_2025-09-23T11:11:45",
+      "priority": 2,
+      "status": "Waiting"
+    },
+    "TR004": {
+      "target_section": "SEC_1",
+      "entry_offset_s": 0,
+      "entry_epoch_s": 1758603705,
+      "action": "proceed",
+      "priority": 5,
+      "status": "On time"
+    }
+  }
+}

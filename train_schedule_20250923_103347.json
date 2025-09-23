@@ -1,0 +1,87 @@
+{
+  "now_epoch_s": 1758603825,
+  "horizon_s": 3600,
+  "snapshot_trains_considered": 10,
+  "schedule": {
+    "TR001": {
+      "target_section": "SEC_2",
+      "entry_offset_s": 120,
+      "entry_epoch_s": 1758603945,
+      "action": "proceed",
+      "priority": 5,
+      "status": "On time"
+    },
+    "TR007": {
+      "target_section": "SEC_2",
+      "entry_offset_s": 300,
+      "entry_epoch_s": 1758604125,
+      "action": "hold_until_2025-09-23T10:43:45",
+      "priority": 5,
+      "status": "On time"
+    },
+    "TR010": {
+      "target_section": "SEC_2",
+      "entry_offset_s": 480,
+      "entry_epoch_s": 1758604305,
+      "action": "hold_until_2025-09-23T10:53:45",
+      "priority": 5,
+      "status": "On time"
+    },
+    "TR002": {
+      "target_section": "SEC_5",
+      "entry_offset_s": 0,
+      "entry_epoch_s": 1758603825,
+      "action": "proceed",
+      "priority": 5,
+      "status": "On time"
+    },
+    "TR003": {
+      "target_section": "SEC_6",
+      "entry_offset_s": 180,
+      "entry_epoch_s": 1758604005,
+      "action": "reroute",
+      "priority": 5,
+      "status": "Delayed"
+    },
+    "TR005": {
+      "target_section": "SEC_6",
+      "entry_offset_s": 360,
+      "entry_epoch_s": 1758604185,
+      "action": "reroute",
+      "priority": 5,
+      "status": "Waiting"
+    },
+    "TR004": {
+      "target_section": "SEC_1",
+      "entry_offset_s": 600,
+      "entry_epoch_s": 1758604425,
+      "action": "hold_until_2025-09-23T11:03:45",
+      "priority": 5,
+      "status": "On time"
+    },
+    "TR006": {
+      "target_section": "SEC_4",
+      "entry_offset_s": 720,
+      "entry_epoch_s": 1758604665,
+      "action": "hold_until_2025-09-23T11:13:45",
+      "priority": 2,
+      "status": "Delayed"
+    },
+    "TR008": {
+      "target_section": "SEC_4",
+      "entry_offset_s": 840,
+      "entry_epoch_s": 1758604905,
+      "action": "hold_until_2025-09-23T11:23:45",
+      "priority": 2,
+      "status": "On time"
+    },
+    "TR009": {
+      "target_section": "SEC_3",
+      "entry_offset_s": 960,
+      "entry_epoch_s": 1758605145,
+      "action": "hold_until_2025-09-23T11:33:45",
+      "priority": 2,
+      "status": "On time"
+    }
+  }
+}

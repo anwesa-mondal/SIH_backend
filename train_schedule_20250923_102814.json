@@ -1,0 +1,87 @@
+{
+  "now_epoch_s": 1758603492,
+  "horizon_s": 3600,
+  "snapshot_trains_considered": 10,
+  "schedule": {
+    "TR002": {
+      "target_section": "SEC_1",
+      "entry_offset_s": 120,
+      "entry_epoch_s": 1758603612,
+      "action": "proceed",
+      "priority": 5,
+      "status": "On time"
+    },
+    "TR008": {
+      "target_section": "SEC_1",
+      "entry_offset_s": 240,
+      "entry_epoch_s": 1758603852,
+      "action": "proceed",
+      "priority": 5,
+      "status": "On time"
+    },
+    "TR001": {
+      "target_section": "SEC_1",
+      "entry_offset_s": 360,
+      "entry_epoch_s": 1758604092,
+      "action": "proceed",
+      "priority": 3,
+      "status": "On time"
+    },
+    "TR004": {
+      "target_section": "SEC_1",
+      "entry_offset_s": 480,
+      "entry_epoch_s": 1758604332,
+      "action": "proceed",
+      "priority": 3,
+      "status": "On time"
+    },
+    "TR007": {
+      "target_section": "SEC_1",
+      "entry_offset_s": 600,
+      "entry_epoch_s": 1758604572,
+      "action": "proceed",
+      "priority": 3,
+      "status": "On time"
+    },
+    "TR003": {
+      "target_section": "SEC_6",
+      "entry_offset_s": 0,
+      "entry_epoch_s": 1758603492,
+      "action": "reroute",
+      "priority": 2,
+      "status": "On time"
+    },
+    "TR005": {
+      "target_section": "SEC_1",
+      "entry_offset_s": 720,
+      "entry_epoch_s": 1758604812,
+      "action": "hold_until_2025-09-23T10:40:12",
+      "priority": 2,
+      "status": "Waiting"
+    },
+    "TR006": {
+      "target_section": "SEC_1",
+      "entry_offset_s": 840,
+      "entry_epoch_s": 1758605052,
+      "action": "hold_until_2025-09-23T10:42:12",
+      "priority": 2,
+      "status": "Waiting"
+    },
+    "TR009": {
+      "target_section": "SEC_1",
+      "entry_offset_s": 960,
+      "entry_epoch_s": 1758605292,
+      "action": "hold_until_2025-09-23T10:44:12",
+      "priority": 2,
+      "status": "Waiting"
+    },
+    "TR010": {
+      "target_section": "SEC_1",
+      "entry_offset_s": 1080,
+      "entry_epoch_s": 1758605532,
+      "action": "hold_until_2025-09-23T10:46:12",
+      "priority": 2,
+      "status": "Waiting"
+    }
+  }
+}
